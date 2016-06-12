@@ -14,4 +14,9 @@
 #### install zabbix agent on raspberry
 ```
 wget http://downloads.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/3.0.3/zabbix-3.0.3.tar.gz
+tar -xvzf zabbix-3.0.3.tar.gz
+cd zabbix-3.0.3/
+./configure --enable-agent
+make
+sudo make install
 ```
