@@ -20,3 +20,7 @@ cd zabbix-3.0.3/
 make
 sudo make install
 ```
+Agent Config File:
+```
+/usr/local/etc/zabbix_agentd.conf
+```
